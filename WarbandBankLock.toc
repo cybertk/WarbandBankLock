@@ -1,0 +1,11 @@
+## Interface: 110007
+## Title: WarbandBankLock
+## Notes: Prevents Warband Bank access conflicts across multiple online sub-accounts
+## Version: @project-version@
+## IconTexture: Interface\AddOns\WarbandBankLock\Icon.blp
+## X-Website: https://github.com/cybertk/WarbandBankLock
+## X-Curse-Project-ID: 1198992
+## X-Wago-ID: bGoMdk60
+
+
+Main.lua
