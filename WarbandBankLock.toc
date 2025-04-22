@@ -1,4 +1,4 @@
-## Interface: 110100
+## Interface: 110105
 ## Title: WarbandBankLock
 ## Notes: Prevents Warband Bank access conflicts across multiple online sub-accounts
 ## Version: @project-version@
