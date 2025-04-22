@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.2.0 - 2025-04-23
+
+- Upgraded TOC to 11.1.5
+- Added addon category: Inventory
+
 ## v1.1.0 - 2025-02-25
 
 - Upgrade TOC to 11.1.0
