@@ -3,6 +3,17 @@
 ## Notes: Prevents Warband Bank access conflicts across multiple online sub-accounts
 ## Version: @project-version@
 ## IconTexture: Interface\AddOns\WarbandBankLock\Icon.blp
+## Category-enUS: Inventory
+## Category-deDE: Inventar
+## Category-esES: Inventario
+## Category-esMX: Inventario
+## Category-frFR: Inventaire
+## Category-itIT: Inventario
+## Category-koKR: 소지품
+## Category-ptBR: Inventário
+## Category-ruRU: Инвентарь
+## Category-zhCN: 物品栏
+## Category-zhTW: 物品欄
 ## X-Website: https://github.com/cybertk/WarbandBankLock
 ## X-Curse-Project-ID: 1198992
 ## X-Wago-ID: bGoMdk60
