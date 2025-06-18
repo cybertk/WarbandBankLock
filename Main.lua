@@ -92,7 +92,7 @@ RegisterEvent("PLAYER_ENTERING_WORLD", function(event, isInitialLogin, isReloadi
 		return
 	end
 
-	local hasAccess = #C_Bank.FetchPurchasedBankTabIDs(Enum.BankType.Account) > 0
+	local hasAccess = HasWarbandBankAccess()
 	Debug("Access:", hasAccess)
 
 	if hasAccess and DEBUG == nil then
@@ -100,6 +100,14 @@ RegisterEvent("PLAYER_ENTERING_WORLD", function(event, isInitialLogin, isReloadi
 	end
 
 	for _, button in ipairs(FindSpellButtons(WARBAND_BANK_SPELL_ID)) do
+		C_Timer.NewTicker(1, function(timer)
+			if InCombatLockdown() then
+				return
+			end
+			button:SetAttribute("type", nil)
+			timer:Cancel()
+		end)
+
 		AddXToButton(button, 4, 2)
 	end
 
