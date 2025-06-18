@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.0 - 2025-06-18
+
+- Upgraded TOC to 11.1.7
+- Added bank lock prompt to spell tooltip: "The bank is being used by another member of your Warband"
+- Now the spell button of [Warband Bank Distance Inhibitor] is disabled when bank is locked - No accidental cooldown waste anymore
+
 ## v1.2.0 - 2025-04-23
 
 - Upgraded TOC to 11.1.5
