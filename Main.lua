@@ -125,4 +125,13 @@ RegisterEvent("PLAYER_ENTERING_WORLD", function(event, isInitialLogin, isReloadi
 			end
 		end
 	end)
+
+	TooltipDataProcessor.AddTooltipPostCall(Enum.TooltipDataType.Spell, function(tooltip, data)
+		if tooltip:GetPrimaryTooltipData().id ~= WARBAND_BANK_SPELL_ID or HasWarbandBankAccess() then
+			return
+		end
+
+		tooltip:AddLine(" ")
+		tooltip:AddLine(RED_FONT_COLOR:WrapTextInColorCode(ACCOUNT_BANK_LOCKED_PROMPT))
+	end)
 end)
