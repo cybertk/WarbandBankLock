@@ -105,6 +105,7 @@ RegisterEvent("PLAYER_ENTERING_WORLD", function(event, isInitialLogin, isReloadi
 				return
 			end
 			button:SetAttribute("type", nil)
+			button:HookScript("OnMouseDown", GenerateFlatClosure(C_Sound.PlaySound, SOUNDKIT.IG_MAINMENU_OPEN))
 			timer:Cancel()
 		end)
 
