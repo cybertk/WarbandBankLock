@@ -1,8 +1,11 @@
-## Interface: 110200
-## Title: WarbandBankLock
+## Interface: 120000
+## Version:  @project-version@
+
+## Title: Warband Bank Lock
+
 ## Notes: Prevents Warband Bank access conflicts across multiple online sub-accounts
-## Version: @project-version@
-## IconTexture: Interface\AddOns\WarbandBankLock\Icon.blp
+## Author: cybertk
+
 ## Category-enUS: Inventory
 ## Category-deDE: Inventar
 ## Category-esES: Inventario
@@ -14,9 +17,13 @@
 ## Category-ruRU: Инвентарь
 ## Category-zhCN: 物品栏
 ## Category-zhTW: 物品欄
+
+## IconTexture: Interface\AddOns\WarbandBankLock\Icon.blp
+
+## X-Flavor: retail
+## X-Expansion: MN
 ## X-Website: https://github.com/cybertk/WarbandBankLock
 ## X-Curse-Project-ID: 1198992
 ## X-Wago-ID: bGoMdk60
-
 
 Main.lua
